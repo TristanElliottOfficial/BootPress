@@ -1,0 +1,36 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+body {
+  font-weight: 200;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 10px;
+  .sidebar-brand {
+    padding: 10px;
+    a {
+      color: #fff;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  a {
+    color: #fff;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.main-content {
+  flex: 1 1 0%;
+}
